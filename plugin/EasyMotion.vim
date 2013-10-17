@@ -100,6 +100,10 @@
 		\ , 'N' : { 'name': 'Search' , 'dir': 1 }
 		\ })
 	" }}}
+	" Special mapping for other functions {{{
+		call EasyMotion#SelectLinesMappings('l')
+		call EasyMotion#SelectPhraseMappings('p')
+	" }}}
 " }}}
 
 " vim: fdm=marker:noet:ts=4:sw=4:sts=4
