@@ -14,7 +14,7 @@
 	" Default options {{{
 		call EasyMotion#InitOptions({
 		\   'leader_key'             : '<Leader><Leader>'
-		\ , 'keys'                   : 'abcdeghiklmnopqrstuvwxyzfj'
+		\ , 'keys'                   : 'abcdefghijklmopqrsuvwxyztn'
 		\ , 'do_shade'               : 1
 		\ , 'do_mapping'             : 1
 		\ , 'special_select_line'    : 1
@@ -101,8 +101,8 @@
 		\ })
 	" }}}
 	" Special mapping for other functions {{{
-		call EasyMotion#SelectLinesMappings('l')
-		call EasyMotion#SelectPhraseMappings('p')
+		call EasyMotion#SelectLinesMappings('u')
+		call EasyMotion#SelectPhraseMappings('y')
 	" }}}
 " }}}
 
